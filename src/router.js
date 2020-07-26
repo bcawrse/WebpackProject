@@ -3,13 +3,12 @@ import { Router, Route, IndexRoute, hashHistory } from 'react-router';
 
 import Home from './components/Home';
 import ArtistMain from './components/artists/ArtistMain';
-import { system } from 'faker';
 
 const componentRoutes = {
   component: Home,
   path: '/',
   indexRoute: { component: ArtistMain },
-  childroutes: [
+  childRoutes: [
     {
       path: "artists/new",
       getComponent(location, cb) { 
