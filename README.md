@@ -10,3 +10,5 @@ git clone https://github.com/StephenGrider/WebpackProject.git
 cd WebpackProject
 npm install
 ```
+
+Hosted on [github.io](https://bcawrse.github.io/WebpackProject/)
